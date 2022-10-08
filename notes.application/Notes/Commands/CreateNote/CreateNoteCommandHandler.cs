@@ -25,7 +25,7 @@ namespace notes.application.Notes.Commands.CreateNote
                 Title = request.Title,
                 Details = request.Details,
                 Id = Guid.NewGuid(),
-                CreationTime = DateTime.Now,
+                CreationDate = DateTime.Now,
                 EditDate = null
             };
 

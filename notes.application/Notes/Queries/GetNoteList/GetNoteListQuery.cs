@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace notes.application.Notes.Queries.GetNoteList
 {
-    public class GetNoteListQuery :IRequest<NoteListVm>
+    public class GetNoteListQuery : IRequest<NoteListVm>
     {
         public Guid UserId { get; set; }
     }
