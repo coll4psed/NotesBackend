@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Notes.Domain;
 using Notes.Persistence;
 
@@ -20,6 +15,7 @@ namespace Notes.Test.Common
         public static NotesDbContext Create()
         {
             var options = new DbContextOptionsBuilder<NotesDbContext>()
+                .EnableSensitiveDataLogging()
                 .UseInMemoryDatabase(Guid.NewGuid().ToString())
                 .Options;
 
@@ -40,7 +36,7 @@ namespace Notes.Test.Common
                     CreationDate = DateTime.Today,
                     Details = "Details2",
                     EditDate = null,
-                    Id = Guid.Parse("{3F57F55B-956F-44F4-A89F-A26D8D4E4826}"),
+                    Id = Guid.Parse("3F57F55B-956F-44F4-A89F-A26D8D4E4826"),
                     Title = "Title2",
                     UserId = UserBId
                 },

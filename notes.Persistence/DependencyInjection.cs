@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Notes.Application.Interfaces;
-using Notes.WebAPI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
