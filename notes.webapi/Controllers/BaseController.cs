@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-namespace notes.webapi.Controllers
+namespace Notes.WebAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]

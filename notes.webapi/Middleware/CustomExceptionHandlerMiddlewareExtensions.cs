@@ -1,4 +1,4 @@
-﻿namespace notes.webapi.Middleware
+﻿namespace Notes.WebAPI.Middleware
 {
     public static class CustomExceptionHandlerMiddlewareExtensions
     {

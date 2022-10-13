@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MediatR;
-using notes.application.Interfaces;
-using notes.domain;
+using Notes.Application.Interfaces;
+using Notes.Domain;
 
-namespace notes.application.Notes.Commands.CreateNote
+namespace Notes.Application.Notes.Commands.CreateNote
 {
     public class CreateNoteCommandHandler 
         : IRequestHandler<CreateNoteCommand, Guid>

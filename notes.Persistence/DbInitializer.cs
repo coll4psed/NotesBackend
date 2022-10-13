@@ -1,6 +1,6 @@
-﻿using notes.webapi;
+﻿using Notes.WebAPI;
 
-namespace notes.Persistence
+namespace Notes.Persistence
 {
     public class DbInitializer
     {

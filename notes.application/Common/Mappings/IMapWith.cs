@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace notes.application.Common.Mappings
+namespace Notes.Application.Common.Mappings
 {
     public interface IMapWith<T>
     {

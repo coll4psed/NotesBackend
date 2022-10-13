@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions.Infrastructure;
-using notes.application.Interfaces;
-using notes.domain;
-using notes.Persistence.EntityTypeConfigurations;
+using Notes.Application.Interfaces;
+using Notes.Domain;
+using Notes.Persistence.EntityTypeConfigurations;
 
-namespace notes.webapi
+namespace Notes.Persistence
 {
     public class NotesDbContext : DbContext, INotesDbContext
     {

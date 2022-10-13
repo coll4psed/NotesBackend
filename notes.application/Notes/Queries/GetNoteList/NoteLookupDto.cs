@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using notes.application.Common.Mappings;
-using notes.domain;
+using Notes.Application.Common.Mappings;
+using Notes.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace notes.application.Notes.Queries.GetNoteList
+namespace Notes.Application.Notes.Queries.GetNoteList
 {
     public class NoteLookupDto : IMapWith<Note>
     {

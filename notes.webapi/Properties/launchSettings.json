@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "notes.webapi": {
+    "Notes.WebAPI": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

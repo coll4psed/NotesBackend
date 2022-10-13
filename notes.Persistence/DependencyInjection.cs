@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using notes.application.Interfaces;
-using notes.webapi;
+using Notes.Application.Interfaces;
+using Notes.WebAPI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace notes.Persistence
+namespace Notes.Persistence
 {
     public static class DependencyInjection
     {

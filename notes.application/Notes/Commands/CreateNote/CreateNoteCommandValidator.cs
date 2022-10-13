@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
 
-namespace notes.application.Notes.Commands.CreateNote
+namespace Notes.Application.Notes.Commands.CreateNote
 {
     public class CreateNoteCommandValidator : AbstractValidator<CreateNoteCommand>
     {

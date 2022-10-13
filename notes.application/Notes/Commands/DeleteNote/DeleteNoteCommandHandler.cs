@@ -1,8 +1,8 @@
 ﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
-using notes.application.Common.Exceptions;
-using notes.application.Interfaces;
-using notes.domain;
+using Notes.Application.Common.Exceptions;
+using Notes.Application.Interfaces;
+using Notes.Domain;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace notes.application.Notes.Commands.DeleteNote
+namespace Notes.Application.Notes.Commands.DeleteNote
 {
     public class DeleteNoteCommandHandler
         : IRequestHandler<DeleteNoteCommand>

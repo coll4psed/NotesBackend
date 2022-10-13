@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace notes.application.Notes.Commands.UpdateNote
+namespace Notes.Application.Notes.Commands.UpdateNote
 {
     public class UpdateNoteCommandValidator : AbstractValidator<UpdateNoteCommand>
     {

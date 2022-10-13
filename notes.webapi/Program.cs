@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using notes.application;
-using notes.application.Common.Mappings;
-using notes.application.Interfaces;
-using notes.Persistence;
-using notes.webapi;
-using notes.webapi.Middleware;
+using Notes.Application;
+using Notes.Application.Common.Mappings;
+using Notes.Application.Interfaces;
+using Notes.Persistence;
+using Notes.WebAPI;
+using Notes.WebAPI.Middleware;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);

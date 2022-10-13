@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using notes.application.Common.Exceptions;
+using Notes.Application.Common.Exceptions;
 using System.Net;
 using System.Text.Json;
 
-namespace notes.webapi.Middleware
+namespace Notes.WebAPI.Middleware
 {
     public class CustomExceptionHandlerMiddleware
     {

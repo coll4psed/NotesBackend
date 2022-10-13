@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using notes.application.Common.Mappings;
-using notes.application.Notes.Commands.CreateNote;
+using Notes.Application.Common.Mappings;
+using Notes.Application.Notes.Commands.CreateNote;
 
-namespace notes.webapi.Models
+namespace Notes.WebAPI.Models
 {
     public class CreateNoteDto : IMapWith<CreateNoteDto>
     {

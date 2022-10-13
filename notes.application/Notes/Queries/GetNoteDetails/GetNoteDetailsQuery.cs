@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace notes.application.Notes.Queries.GetNoteDetails
+namespace Notes.Application.Notes.Queries.GetNoteDetails
 {
     public class GetNoteDetailsQuery : IRequest<NoteDetailsVm>
     {

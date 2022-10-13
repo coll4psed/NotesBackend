@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace notes.application.Notes.Commands.DeleteNote
+namespace Notes.Application.Notes.Commands.DeleteNote
 {
     public class DeleteNoteCommand : IRequest
     {

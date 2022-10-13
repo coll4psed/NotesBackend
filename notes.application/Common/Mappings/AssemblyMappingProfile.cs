@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace notes.application.Common.Mappings
+namespace Notes.Application.Common.Mappings
 {
     public class AssemblyMappingProfile : Profile
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace notes.application.Notes.Queries.GetNoteList
+namespace Notes.Application.Notes.Queries.GetNoteList
 {
     public class NoteListVm
     {

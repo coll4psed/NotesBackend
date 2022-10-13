@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace notes.domain
+namespace Notes.Domain
 {
     public class Note
     {

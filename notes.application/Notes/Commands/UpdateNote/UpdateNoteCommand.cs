@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MediatR;
 
-namespace notes.application.Notes.Commands.UpdateNote
+namespace Notes.Application.Notes.Commands.UpdateNote
 {
     public class UpdateNoteCommand : IRequest
     {

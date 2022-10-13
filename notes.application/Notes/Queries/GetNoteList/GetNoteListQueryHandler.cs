@@ -2,7 +2,7 @@
 using AutoMapper.QueryableExtensions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using notes.application.Interfaces;
+using Notes.Application.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace notes.application.Notes.Queries.GetNoteList
+namespace Notes.Application.Notes.Queries.GetNoteList
 {
     public class GetNoteListQueryHandler
         : IRequestHandler<GetNoteListQuery, NoteListVm>

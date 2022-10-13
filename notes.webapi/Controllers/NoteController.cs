@@ -2,15 +2,15 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.FileProviders;
-using notes.application.Notes.Commands.CreateNote;
-using notes.application.Notes.Commands.DeleteNote;
-using notes.application.Notes.Commands.UpdateNote;
-using notes.application.Notes.Queries.GetNoteDetails;
-using notes.application.Notes.Queries.GetNoteList;
-using notes.webapi.Models;
+using Notes.Application.Notes.Commands.CreateNote;
+using Notes.Application.Notes.Commands.DeleteNote;
+using Notes.Application.Notes.Commands.UpdateNote;
+using Notes.Application.Notes.Queries.GetNoteDetails;
+using Notes.Application.Notes.Queries.GetNoteList;
+using Notes.WebAPI.Models;
 using System.Threading.Tasks;
 
-namespace notes.webapi.Controllers
+namespace Notes.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     public class NoteController : BaseController
